@@ -16,7 +16,8 @@
 .calendar {
   border: solid 1px #777;
   height: 250px;
-  min-width: 400px;
+  min-width: 300px;
+  overflow: hidden;
 }
 
 /* Misc */
