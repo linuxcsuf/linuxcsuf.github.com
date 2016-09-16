@@ -148,7 +148,20 @@
 
             <div class="row">
                 <div class="col-sm-4 tile-item">
-                    <a href="#portfolioModal1" class="tile-link" data-toggle="modal">
+                    <!--<a href="#portfolioModal1" class="tile-link" data-toggle="modal">-->
+                    <a href="http://webchat.freenode.net?channels=%23linuxcsuf&amp;uio=d4" target="_blank" class="tile-link">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/irc-big.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 tile-item">
+                    <!--<a href="#portfolioModal2" class="tile-link" data-toggle="modal">-->
+                    <a href="https://linuxcsuf.slack.com" target="_blank" class="tile-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -156,20 +169,11 @@
                         </div>
                         <img src="img/slack-big.png" class="img-responsive" alt="">
                     </a>
+                </div>
 
-                </div>
                 <div class="col-sm-4 tile-item">
-                    <a href="#portfolioModal2" class="tile-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/email-big.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 tile-item">
-                    <a href="#portfolioModal3" class="tile-link" data-toggle="modal">
+                    <!--<a href="#portfolioModal3" class="tile-link" data-toggle="modal">-->
+                    <a href="https://disqus.com/home/discussion/linuxcsuf/csuf_lug_03/" target="_blank" class="tile-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -179,7 +183,28 @@
                     </a>
                 </div>
 
+            <!--
+                <div class="col-sm-4 tile-item">
+                    <a href="#portfolioModal4" class="tile-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/email-big.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            -->
             </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="mailto:linuxcsuf@gmail.com?subject=LUG%20Question" target="_blank" class="btn btn-lg btn-default">
+                        <i class="fa fa-envelope-o"></i> E-mail
+                    </a>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -282,8 +307,41 @@
     </div>
 
 
-    <!-- Slack Modal -->
+    <!-- IRC Modal -->
     <div class="tile-modal portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Slack</h2>
+                            <hr class="star-primary">
+                            <img src="img/irc-big.png" class="img-responsive img-centered" alt="">
+
+                            <div class="col-lg-8 col-lg-offset-2 text-center">
+                                <p>Join #linuxcsuf on Freenode</p>
+                                <a href="http://webchat.freenode.net?channels=%23linuxcsuf&amp;uio=d4" target="_blank" class="btn btn-lg btn-primary">
+                                    <i class="fa fa-comments-o"></i> Launch
+                                </a>
+                                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slack Modal -->
+    <div class="tile-modal portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -304,38 +362,6 @@
                                 <p>Signup using your school e-mail</p>
                                 <a href="https://linuxcsuf.slack.com" target="_blank" class="btn btn-lg btn-primary">
                                     <i class="fa fa-comments-o"></i> Launch
-                                </a>
-                                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Email Modal -->
-    <div class="tile-modal portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Email</h2>
-                            <hr class="star-primary">
-                            <img src="img/email-big.png" class="img-responsive img-centered" alt="">
-
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <a href="mailto:linuxcsuf@gmail.com?subject=LUG%20Question" target="_blank" class="btn btn-lg btn-primary">
-                                    <i class="fa fa-comments-o"></i> Compose
                                 </a>
                                 <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
@@ -368,6 +394,38 @@
                             <div class="col-lg-8 col-lg-offset-2 text-center">
                                 <a href="https://disqus.com/home/discussion/linuxcsuf/csuf_lug_03/" target="_blank" class="btn btn-lg btn-primary">
                                     <i class="fa fa-comment"></i> Launch
+                                </a>
+                                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Modal -->
+    <div class="tile-modal portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Email</h2>
+                            <hr class="star-primary">
+                            <img src="img/email-big.png" class="img-responsive img-centered" alt="">
+
+                            <div class="col-lg-8 col-lg-offset-2 text-center">
+                                <a href="mailto:linuxcsuf@gmail.com?subject=LUG%20Question" target="_blank" class="btn btn-lg btn-primary">
+                                    <i class="fa fa-comments-o"></i> Compose
                                 </a>
                                 <button type="button" class="btn btn-lg btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>

@@ -8,6 +8,7 @@ $(function () {
         if (!load) {
             t1.input("What's your name?", function (i) {
                 t1.print("Welcome, " + i + "!");
+                window.open("http://webchat.freenode.net/?nick=" + i + "&channels=%23linuxcsuf&uio=d4",'_blank');
             });
             load = true;
         }
